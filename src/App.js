@@ -1,5 +1,5 @@
 import './App.css';
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Tasks from './components/Tasks'
@@ -41,12 +41,7 @@ function App() {
   //     }
   //   ]
     
-    // Fetch Tasks
-    const getTasks = () => {
-      console.log('get')
-    }
-    
-    
+
     // add Tasks
     const addTask = (task) => {
       const newtask = { id: 322,...task }
